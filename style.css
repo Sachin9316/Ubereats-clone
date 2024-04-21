@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.border:hover{
+    /* background-color: transparent; */
+    border: 1px solid red;
+}
+
+.hero-img{
+    background-image: url("uberBack.jpg");
+    background-size: cover;
+    position: sticky;
+    height: 700px;
+    width: 100%;
+}
+
+.nav-bar{
+    display: flex;
+    padding: 26px;
+}
+
+.menu i{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.menu p{
+    display: inline;
+    font-size: 30px;
+}
+.eats{
+    font-weight: 800;
+    margin-right: 170px;
+}
+
+.loc-icon2{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: none;
+    
+}
+
+.input2{
+    height: 40px;
+    width: 473px;
+    border: none;
+}
+
+.login{
+    position: absolute;
+    right: 0px;
+    margin-right: 100px;
+    height: 35px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 12px;
+}
+
+.login p{
+    font-family: sans-serif;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.sign-up{
+    position: absolute;
+    right: 0px;
+    margin-right: 2%;
+    height: 35px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    font-size: 12px;
+    color: white;
+}
+
+.order-box{
+    width: 90%;
+    height: 160px;
+    padding: 26px;
+    margin-top: 150px;
+}
+
+.order-title h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 37px;
+}
+
+.delivery-box{
+    font-family: sans-serif;
+    display: flex;
+    margin-top: 37px;
+}
+
+.loc-icon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: none;
+}
+
+.input{
+    height: 40px;
+    width: 370px;
+    border: none;   
+}
+
+.loc-icon2{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: none;
+    margin-left: 7px;
+}
+
+.items{
+    height: 40px;
+    width: 100px;
+    border: none;
+    padding-right: 5px;
+}
+
+.find-food{
+    height: 40px;
+    width: 90px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7px;
+    border-radius: 6px;
+}
+
+.sign-txt{
+    display: flex;
+    margin-top: 24px;
+    font-size: 11px;
+}
+
+.sign-txt a{
+    margin-right: 5px;
+    color: black;
+}
+
+.marginPadding{
+    padding: 30px;
+    margin-top: 45px;
+}
+
+.box-items{
+    width: 430px;
+    height: 250px;
+    margin-right: 15px;
+}
+
+.box1{
+    height: 230px;
+    width: 100%;
+    background-image: url("background-uber.jpeg");
+    background-size: cover
+}
+
+.box2{
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.box3 a{
+    font-size: 0.76rem;
+    margin-top: 15px;
+    color: black;
+}
+
+.card-ui{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.map{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px; */
+}
+
+.map-name{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.map-cities{
+    margin-top: 16px;
+}
+
+.map-cities a{
+    color: black;
+    font-size: 12px;
+}
+
+.map-view{
+    background-image: url("map-mumbai.png");
+    background-size: cover;
+    width: 100%;
+    height: 280px;
+    margin-top: 18px;
+    /* margin: 0px 20px 20px 20px; */
+}
+
+.city-names {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cities{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.cities a{
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+
+.footer{
+    display: inline;
+    text-align: center;
+}
+
+.footer p{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.copyright{
+    margin-bottom: 10px;
+}
